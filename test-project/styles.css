@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.timelineInteractiveContainer{
+  overflow: hidden;
+    font-family: sans-serif;
+    overflow-x:scroll;
+     
+}
+
+
+.heroImage{
+    display:flex;
+    transform-style: preserve-3d;
+    justify-content: center;
+    background-image: url("https://picsum.photos/1600/640");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+
+.heroText{
+align-self: center;
+text-align: center;
+background-color: #3b3b3b;
+padding: .5rem;
+}
+
+.introDiv{
+    margin-bottom: 2rem;
+    position:relative;
+    height: 100vh;
+  
+}
+
+.byLine{
+    color:#ea5a0c;
+   
+}
+
+
+ h1{
+  align-self: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: white;
+
+
+ }
+
+ .timelineContent{
+position:relative;
+   max-width: 50rem;
+display: flex;
+flex-direction: column;
+    margin: 0 auto;  
+
+ }
+
+
+ h3{
+    text-align: center;
+ }
+
+ .h3Text{
+    max-width: 50rem;
+    margin: 0 auto;
+ 
+  
+ }
+
+ .h3Text > *{
+    margin-bottom: .5rem;
+ }
+
+ .h3Text p{
+    line-height:2;
+ }
+
+ ul{
+    list-style-type: none;
+ }
+
+ .content{
+    display: flex;
+  width: 50rem;
+  justify-content: space-between;
+  padding-top: 2rem;
+   
+ }
+ .leftBox, .rightBox{
+max-width:23rem;
+max-height: 20rem;
+
+ }
+
+
+ .listDiv{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+ }
+
+ h4{
+    text-decoration:underline;
+    text-decoration-color: #9dbdb8;
+ }
+
+ .line::after{
+    background-color: #9dbdb8;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 50%;
+padding-left: -1rem;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+
+.scrollTest{
+    position: relative;
+    height: 100vh;
+}
+.backgroundScroll{
+overflow: hidden;
+overflow-y: scroll;
+
+top: 0;
+    margin-top: 1rem;
+    background-image: url("https://picsum.photos/368/500");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 50rem;
+    height: 100vh;
+
+}
+
+hr{
+    margin: 1rem 0;
+}
+ 
+
+
